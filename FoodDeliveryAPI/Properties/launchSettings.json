@@ -1,0 +1,38 @@
+{
+  "profiles": {
+    "FoodDeliveryAPI - Instance 1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development1"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5182;http://localhost:5183"
+    },
+    "FoodDeliveryAPI - Instance 2": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development2"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5185"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:64322",
+      "sslPort": 0
+    }
+  }
+}

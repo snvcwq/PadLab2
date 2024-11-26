@@ -1,0 +1,6 @@
+@echo off
+
+cd C:\Users\denis\OneDrive\Desktop\PadLab2\FoodDeliveryAPI\bin\Debug\net8.0
+
+start "" dotnet FoodDeliveryAPI.dll --urls https://localhost:5182;https://localhost:5183 --environment Development1
+start "" dotnet FoodDeliveryAPI.dll --urls https://localhost:5184;https://localhost:5185 --environment "Development2"
