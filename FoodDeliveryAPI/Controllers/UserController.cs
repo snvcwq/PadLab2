@@ -52,7 +52,7 @@ namespace FoodDeliveryAPI.Controllers
         [HttpPost("add")]
         public async Task<IActionResult> CreateUser(UserRequest model)
         {
-            var user = new User()
+            var user = new User
             {
                 Id = Guid.NewGuid(),
                 Name = model.Name,
